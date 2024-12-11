@@ -1,0 +1,60 @@
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS 임시 파일
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# VSCode 관련 파일
+.vscode/
+*.code-workspace
+
+# Python 가상 환경
+venv/
+.env
+
+# 파이썬 패키지 파일
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Log files
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# 테스트 / 커버리지 파일
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# MyPy cache
+.mypy_cache/
+
+# IDE나 편집기 파일
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 기타 사용자 정의 파일
+*.bak
+*.tmp
